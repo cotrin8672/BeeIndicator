@@ -28,6 +28,7 @@ base {
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+compileKotlin.compilerOptions.setFreeCompilerArgs(["-Xcontext-receivers"])
 
 runs {
     configureEach {
