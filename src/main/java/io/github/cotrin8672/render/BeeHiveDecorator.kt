@@ -68,7 +68,7 @@ object BeeHiveDecorator : IItemDecorator {
         val barXStart = x + 13
         val barYStart = y + 15
         val barXEnd = barXStart + 2
-        val barYEnd = barYStart - 28
+        val barYEnd = barYStart - 29
         pose().withPoseContext {
             scale(1f, 0.5f, 1f)
             translate(0f, y.toFloat() + 15f, 160f)
