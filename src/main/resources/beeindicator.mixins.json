@@ -3,7 +3,6 @@
   "minVersion": "0.8",
   "compatibilityLevel": "JAVA_21",
   "package": "io.github.cotrin8672.mixin",
-  "refmap": "beeindicator.refmap.json",
   "mixins": [
   ],
   "client": [
